@@ -3,11 +3,11 @@ import Footer from './Footer';
 import Header from './Header';
 import Content from '../pages/Content';
 
-function App() {
+function App({children}) {
   return (
     <div id="wrap">
       <Header />
-      <Content/>
+      {children}
       <Footer />
     </div>
   );

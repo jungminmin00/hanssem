@@ -1,0 +1,29 @@
+#content{
+    width: 100%;    /* 380px */
+    /* margin: ; */
+    /* background-color: #000; */
+}
+#content>.show{
+    width: 100%;    /* 380px */
+}
+#content>.show>.all{
+    width: 2280px;    /* 380* 6 */
+    display: flex;
+}
+#content>.show>.all>li{
+    width: 380px;
+    position: relative;
+}
+#content>.show>.all>li img{
+    width: 100%;
+}
+#content>.show>.all>li figcaption{
+    position: absolute;
+    left: 20px;
+    bottom: 30px;
+}
+#content>.show>.all>li figcaption>p{
+    color: #fff;
+    font-size: 35px;
+    line-height: 50px;
+}
