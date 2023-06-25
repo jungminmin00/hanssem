@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './components/App';
-import Content from './pages/Content';
-import NotFound from './pages/NotFound';
-import ProductList from './pages/ProductList';
+import Content from './components/Content';
+import NotFound from './components/NotFound';
+import ProductList from './components/ProductList';
+import WishList from './components/WishList';
 
 
 export default function Main(){
@@ -12,6 +13,7 @@ export default function Main(){
                 <Routes>
                     <Route path='/' element={<Content />} />
                     <Route path='productList' element={<ProductList />}/>
+                    <Route path='wishList' element={<WishList />}/>
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </App>

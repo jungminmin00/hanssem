@@ -4,17 +4,40 @@ header{
 #header{
     width: 342px;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
     padding: 15px 0;
+    /* text-align: center; */
+    position: relative;
 }
-#header>p{
+#header>div{
+    position: absolute;
     font-size: 20px;
+}
+#header>div:first-child{
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+}
+#header>div:last-child{
+    top: 50%;
+    right: 0;
+    margin-top: -10px;
+    /* width: ; */
+}
+#header>div>a{
+    display: flex;
+    align-items: center;
+}
+#header>div>a>span{
+    font-size: 15px;
 }
 #header>a{
     display: inline-block;
     width: 40px;
 }
-#header>a>img{
+#header>h1{
+    width: 50px;
+    margin: 0 auto;
+}
+#header>h1>a>img{
     width: 100%;
 }
