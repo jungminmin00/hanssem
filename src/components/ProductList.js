@@ -15,7 +15,7 @@ export default function ProductList(){
             <h1>
                 PRODUCTS
             </h1>
-            <div>
+            <div>   {/* div>ul>li>div>div */}
                 <ul>
                     {pData.map((item) => (
                         <li key={item.id}>

@@ -37,12 +37,17 @@
     font-size: 15px;
     font-weight: bold;
 }
+.pBtn:hover{
+    opacity: 100;
+}
 .pBtn{
-    width: 130px;
-    height: 130px;
     position: absolute;
     display: flex;
+    width: 130px;
+    height: 130px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgba(1, 1, 1, 0.5);
+    opacity: 0;
 }
