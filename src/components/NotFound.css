@@ -1,0 +1,12 @@
+#notFound{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+#notFound>div{
+    width: 150px;
+    height: 1px;
+    background-color: rgba(1, 1, 1, 0.3);
+    margin: 20px auto 0;
+}
