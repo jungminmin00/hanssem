@@ -23,7 +23,10 @@ export default function ProductList(){
                                 <figure>
                                     <img src={item.photo} alt={item.title} />   
                                     <figcaption>
-                                        <Link to={`/productList/${item}`}>
+                                        <Link 
+                                            to={`/productList/${item.id}`}
+                                            wishProductIds = {wishProductIds}
+                                        >
                                         <dl>
                                             <dt>{item.title}</dt>
                                             <dd>{item.price}원</dd>
